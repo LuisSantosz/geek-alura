@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4a148c;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+.product-form, .product-list {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.product-form h2, .product-list h2 {
+    color: #4a148c;
+    text-align: center;
+}
+
+.product-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.product-form input, .product-form button {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.product-form button {
+    background-color: #4a148c;
+    color: white;
+    cursor: pointer;
+    width: 30%;
+    border-radius: 115px;
+}
+
+.product-list #productsContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product-list .product-item {
+    width: 150px;
+    margin: 1%;
+    margin-bottom: 5%;
+    padding: 10px;
+    background-color: #4a148c;
+    color: white;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.product-list .product-item img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.product-form #resetForm {
+    background-color: #d32f2f;
+}
+
+/*altera cor do botão*/
+.product-form #resetForm:hover {
+    background-color: #b71c1c;
+}
+
+
+footer {
+    background-color: #4a148c;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

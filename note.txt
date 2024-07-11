@@ -1,0 +1,3 @@
+- URL puxando imagem OK
+- Adicionar produtos OK
+- Limpar produtos adicionados OK

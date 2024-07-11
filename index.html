@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge Geek</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+            <span>👽 AluraGeek 👽
+            </span> 
+    </header>
+
+    <main>
+        <section class="product-form">
+            <h2>Adicionar Produto</h2>
+            <form id="addProductForm">
+                <input type="text" id="nome" placeholder="Nome" required>
+                <input type="text" id="preco" placeholder="Preço" required>
+                <input type="text" id="imagem" placeholder="URL da imagem" required>
+                <button type="submit">Guardar</button>
+                <button type="button" id="resetForm">Limpar</button>
+            </form>
+        </section>
+
+        <section class="product-list">
+            <h2>Meus Produtos</h2>
+
+            <div id="productsContainer"></div>
+
+        <button id="clearProducts">Limpar Produtos</button>
+        </section>
+    </main>
+
+    <footer>Desenvolvido por Luis Henrique Santos de Queiroz<br>
+        <br>
+        Para o projeto challenge AluraGeek
+         <br>
+    </footer>
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>
